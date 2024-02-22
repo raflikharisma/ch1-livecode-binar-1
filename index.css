@@ -1,0 +1,53 @@
+
+#title{
+  background: linear-gradient(-45deg, #ffffff, #333031, #f5f5f5, #4e4f4f);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+h1 {
+  animation: color-change 15s infinite;
+}
+
+.lead {
+  animation: text-change 15s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    color: ;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+@keyframes text-change {
+  0% {
+    color: ;
+  }
+  30% {
+    color: black;
+  }
+  55% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
