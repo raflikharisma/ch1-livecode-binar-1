@@ -1,5 +1,4 @@
-
-#title{
+#title {
   background: linear-gradient(-45deg, #ffffff, #333031, #f5f5f5, #4e4f4f);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
@@ -50,4 +49,28 @@ h1 {
   100% {
     color: black;
   }
+}
+
+.link-block-20 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+  text-decoration: none;
+  display: flex;
+}
+
+.button-primary-outline {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  align-items: center;
+  padding: 17px 16px;
+  display: flex;
+  color: #000000;
+}
+
+#testi {
+  width: 832px;
+  height: 382px;
 }
